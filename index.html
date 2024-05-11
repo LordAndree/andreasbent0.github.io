@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        h1{
+            font-weight: bold;
+            font-family: cursive;
+            color: aliceblue;
+        }
+        body{
+            background-image: url(background1.jpg);
+        }
+        .label{
+            color: aliceblue;
+        }
+        .carousel-item {
+            height: 500px; /* Set the desired carousel item height */
+            object-fit: cover; /* Preserve aspect ratio and cover the entire area */
+        }
+        .container{
+            border: solid;
+            color: aliceblue;
+            height: max-content;
+            padding: 2%;
+            backdrop-filter: blur(10px);
+            border-radius: 1%;
+        }
+        .tabel{
+            width: 100%;
+            color: aliceblue;
+        }
+        .kolom1{
+            text-align: start;
+            font-size: 20px;
+        }
+        li{
+            font-size: larger;
+        }
+        .kolom2{
+            text-align: end;
+        }
+        img{
+            margin: 2%;
+        }
+        .iconsosmed{
+            width: 15%;
+        }
+        a {
+            color: aliceblue; /* Change the color to red, you can use any color you prefer */
+            text-decoration: none; /* Optionally remove underline */
+        }
+
+        a:hover {
+            color: green; /* Change the color when hovered over */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="h1 text-center">
+            <h1>YUK NGOPI DI BENTO !!!</h1>
+            
+        </div>
+        <!-- Caraousel -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="bento5.jpg" class="d-block w-100" alt="..." style="object-fit: cover; height: 500px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="label">Tempat Outdoor & Smoking Area</h5>
+                        <p class="label">Kami menyediakan tempat bagi perokok.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="bento6.jpg" class="d-block w-100" alt="..." style="object-fit: cover; height: 500px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="label">Tempat Indoor & AC</h5>
+                        <p class="label">Kami juga menyediakan area indoor ber AC dan kedap suara</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="bento7.jpg" class="d-block w-100" alt="..." style="object-fit: cover; height: 500px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="label">Beragam Menu & Playing card</h5>
+                        <p class="label">Aneka makanan, Minuman dan cemilan serta playing card</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+
+        <!-- Footer -->
+ 
+        
+    </div>
+
+    <div class="container" style="margin-top: 2%;">
+        <table class="tabel">
+            <tr>
+                <th style="text-align: left; width: 70%;"> 
+                    <h3>Benefit :</h3>
+                </th>
+                <th style="text-align: left;">
+                    <h3>Special Offer</h3>
+                </th>
+            </tr>
+            <tr>
+                <th>Ada banyak fasilitas loh yang bisa kamu pakai 
+                    di bento kopi secara gratis, nih fasilitasnya :</th>
+            </tr>
+            <tr>
+              <td class="kolom1">
+                <ul>
+                    <li>Free Wifi</li>
+                    <li>Free Charger</li>
+                    <li>Live Music</li>
+                    <li>Playing Card</li>
+                    <li>AC</li>
+                    <li>Outdoor Area</li>
+                </ul>
+              </td>
+              <td>
+                <a href="maintenance.html">
+                    <img src="promo1.jpeg" alt="promo1" style="width: 80%; height: auto ;margin-top: 0%;">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="kolom1"></td>
+              <td class="kolom1">
+                <div style="display: flex; flex-direction: column;">
+                    <div>
+                        <a href="https://www.instagram.com/bentokopiindonesia/">
+                            <img class="iconsosmed" src="Instagram_icon.png" alt="" style="color: aliceblue;">
+                            Bento Kopi
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://lynk.id/bentokopi/page/lokasi">
+                            <img class="iconsosmed" src="icon-gmaps.png" alt="">
+                            Lokasi Bento Kopi
+                        </a>
+                    </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+          
+    </div>
+
+    <div class="container" style="margin-top: 2%;">
+        <h1 style="text-align: center;">
+            Andreas Adrian <br>
+            21.11.4075
+        </h1>
+    </div>
+</body>
+</html>
